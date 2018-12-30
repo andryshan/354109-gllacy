@@ -1,0 +1,144 @@
+@font-face{
+	font-family: 'Roboto';
+	src: url('../fonts/roboto.woff2') format('woff2'), url('../fonts/roboto.woff') format('woff');
+	font-weight: 400;
+}
+
+@font-face{
+	font-family: 'Roboto';
+	src: url('../fonts/robotobold.woff2') format('woff2'), url('../fonts/robotobold.woff') format('woff');
+	font-weight: 700;
+}
+
+@font-face{
+	font-family: 'Roboto';
+	src: url('../fonts/robotomedium.woff2') format('woff2'), url('../fonts/robotomedium.woff') format('woff');
+	font-weight: 500;
+}
+
+body{
+	background-color: #849d8f;
+	margin: 0;
+	color: white;
+	font-family: 'Roboto', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.container{
+	width: 1146px;
+	padding-left: 27px;
+	padding-right: 27px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header-wrap{
+	display: flex;
+}
+
+.main-nav{
+	display: flex;
+	width: 1146px;
+}
+
+.search-form,
+.login-form{
+	display: none;
+}
+
+.main-header-logo{
+	padding-top: 9px;
+	margin-right: 10px;
+	display: flex;
+	width: 154px; 
+	height: 64px;
+}
+
+.site-nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	font-weight: 18px;
+	color: white;
+	display: flex;
+	padding-top: 15px;
+	font-weight: 500;
+	position: relative;
+	flex-wrap: wrap;
+	width: 417px;
+	margin-right: auto;
+}
+
+.site-nav-sub{
+	position: absolute;
+	flex-direction: column;
+}
+
+.site-nav > li{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.site-nav-item a{
+	color: white;
+	padding-right: 15px;
+	padding-left: 13px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.site-nav-item > a:hover{
+	color: black;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.user-nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	width: 267px;
+}
+
+.site-nav-sub{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: white;
+}
+
+.site-nav-sub a{
+	color: black;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+}
